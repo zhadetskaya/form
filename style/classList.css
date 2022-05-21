@@ -398,6 +398,7 @@ a {
 .hint {
     color: gray;
     font: 400 14px/14px 'RobotolightItalic', sans-serif;
+    margin-bottom: 20px;
 }
 .title {
     text-align: center;
