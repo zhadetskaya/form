@@ -1,0 +1,597 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+header, main, footer {
+    width: 100%;
+    display: block;
+}
+
+div {
+    float: left;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-size: 12px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+main {
+    margin-top: -10px;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/* Подключение шрифта */
+@font-face {
+    font-family: 'Robotolight';
+    src: url('../fonts/roboto-light.woff2'),
+    url('../fonts/roboto-light.woff');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotolightItalic';
+    src: url('../fonts/Roboto-LightItalic.woff2'),
+    url('../fonts/Roboto-LightItalic.woff');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/Roboto-Bold.woff2'),
+    url('../fonts/Roboto-Bold.woff');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* Устанвка ширины и высот эементов */
+.wAuto {
+    width: auto;
+}
+
+.w0 {
+    width: 0px;
+}
+
+.w1 {
+    width: 4.16%;
+}
+
+.w2 {
+    width: 8.34%;
+}
+
+.w3 {
+    width: 12.5%;
+}
+
+.w4 {
+    width: 16.66%;
+}
+
+.w5 {
+    width: 20%;
+}
+
+.w6 {
+    width: 25%;
+}
+
+.w7 {
+    width: 29.16%;
+}
+
+.w8 {
+    width: 33.33%;
+}
+
+.w9 {
+    width: 37.5%;
+}
+
+.w10 {
+    width: 41.66%;
+}
+
+.w11 {
+    width: 45.83%;
+}
+
+.w12 {
+    width: 50%;
+}
+
+.w13 {
+    width: 54.16%;
+}
+
+.w14 {
+    width: 58.33%;
+}
+
+.w15 {
+    width: 62.5%;
+}
+
+.w16 {
+    width: 66.6%;
+}
+
+.w17 {
+    width: 70.83%;
+}
+
+.w18 {
+    width: 75%;
+}
+
+.w19 {
+    width: 79.16%;
+}
+
+.w20 {
+    width: 83.33%;
+}
+
+.w21 {
+    width: 87.5%;
+}
+
+.w22 {
+    width: 91.66%;
+}
+
+.w23 {
+    width: 95.83%;
+}
+
+.w, .w24 {
+    width: 100%;
+}
+
+.hAuto {
+    height: auto;
+}
+
+.h0 {
+    height: 0px;
+}
+
+.h1 {
+    height: 4.16%;
+}
+
+.h2 {
+    height: 8.34%;
+}
+
+.h3 {
+    height: 12.5%;
+}
+
+.h4 {
+    height: 16.68%;
+}
+
+.h5 {
+    height: 20%;
+}
+
+.h6 {
+    height: 25%;
+}
+
+.h7 {
+    height: 29.16%;
+}
+
+.h8 {
+    height: 33.33%;
+}
+
+.h9 {
+    height: 37.5%;
+}
+
+.h10 {
+    height: 41.66%;
+}
+
+.h11 {
+    height: 45.83%;
+}
+
+.h12 {
+    height: 50%;
+}
+
+.h13 {
+    height: 54.16%;
+}
+
+.h14 {
+    height: 58.33%;
+}
+
+.h15 {
+    height: 62.5%;
+}
+
+.h16 {
+    height: 66.6%;
+}
+
+.h17 {
+    height: 70.83%;
+}
+
+.h18 {
+    height: 75%;
+}
+
+.h19 {
+    height: 79.16%;
+}
+
+.h20 {
+    height: 83.33%;
+}
+
+.h21 {
+    height: 87.5%;
+}
+
+.h22 {
+    height: 91.66%;
+}
+
+.h23 {
+    height: 95.83%;
+}
+
+.h, .h24 {
+    height: 100%;
+}
+
+.h85px {
+    height: 85px;
+}
+
+
+/* Общие стили */
+body {
+    font-family: 'RobotoLight', sans-serif;
+}
+
+a {
+    transition: 0.3s ease all;
+}
+
+.butCreate {
+    background: #FCD5B5;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.lico {
+    background: #8EB4E3;
+    font-weight: 700;
+}
+
+.cont {
+    margin: auto;
+}
+
+.row {
+    flex-direction: row !important;
+}
+
+.lineblock {
+    display: inline-block;
+}
+
+.inputblue {
+    border: 2px solid #C7C7C7;
+    line-height: 30px;
+    background: #DBEEF4;
+    text-align: center;
+}
+
+.mrbotom10 {
+    margin-bottom: 10px
+}
+
+.txtcentre {
+    text-align: center !important;
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 34px;
+    width: 14%;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+}
+
+.hint {
+    color: gray;
+    font: 400 14px/14px 'RobotolightItalic', sans-serif;
+}
+.title {
+    text-align: center;
+    font: 700 18px/22px 'RobotoBold', sans-serif;
+    margin-top: 10px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header__container {
+    border: 1px dashed gray;
+    float: none;
+}
+
+.main__container {
+    float: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__wrapper {
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed red;
+    padding-bottom: 10px;
+}
+
+.form__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__item {
+    border: 1px dashed #ababab;
+    margin: 10px;
+}
+
+.btns {
+    float: none;
+}
+
+.form__radio_btns {
+    display: flex;
+    float: none;
+    justify-content: center;
+}
+
+.form__radio_buttons {
+    float: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__radio_button label {
+    padding: 0 25px;
+}
+
+.form__radio_btn label {
+    padding: 0 40px;
+}
+
+.form__radio_btn, .form__radio_button {
+    display: inline-block;
+    margin: 5px;
+}
+
+.form__radio_btn input[type=radio], .form__radio_button input[type=radio] {
+    display: none;
+}
+
+.form__radio_btn label, .form__radio_button label {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 34px;
+    border: none;
+    user-select: none;
+transition: all .5s;
+}
+
+.blue {
+    background-color: #8EB4E3;
+    padding: 0px 15px;
+}
+
+.gray {
+    background-color: gray;
+    border-radius: 6px;
+}
+
+.form__radio_btns input[type=radio]:checked + label {
+    background: #ffe0a6;
+}
+
+.form__radio_button input[type=radio]:checked + label {
+    background: #85f7e0;
+}
+
+.form__radio_btns label:hover {
+    color: #666;
+}
+
+.form__radio_button label:hover {
+    background-color: #72ede5;
+}
+
+.form__radio_btns input[type=radio]:disabled + label {
+    background: #efefef;
+    color: #666;
+}
+
+.form__radio_button input[type=radio]:disabled + label {
+    background: #efefef;
+    color: #666;
+}
+
+.form__text {
+    display: block;
+    resize: none;
+}
+
+.form__text-blue {
+    background-color: #c3d9f7;
+    border: 1px solid #ababab;
+    padding: 13px 33px;
+}
+
+.form__information {
+    float: none;
+    margin-bottom: 10px;
+}
+
+.form__img-wrapper {
+    height: 90px;
+    float: none;
+}
+
+.form__img {
+    display: block;
+    background-color: gray;
+}
+
+.form-checks {
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.form__check {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form__check input {
+    margin: 0 5px;
+}
+
+.form__text-gray {
+    border: 1px dashed #ababab;
+    resize: none;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.form__checked-wrapper {
+    border: 1px dashed #ababab;
+    margin: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.form__checked_items {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__checked_item input, .form__checked_item label {
+    vertical-align: middle;
+}
+
+.form__checked {
+    padding-right: 18px;
+}
+
+.form__checked .btn {
+    display: block;
+    background-color: #afe8af;
+    border: 1px solid green;
+}
+
+.main__content {
+    border: 1px dashed #ababab;
+}
