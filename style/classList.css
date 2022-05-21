@@ -539,6 +539,7 @@ transition: all .5s;
 .form__img {
     display: block;
     background-color: gray;
+    object-fit: cover;
 }
 
 .form-checks {
@@ -590,6 +591,11 @@ transition: all .5s;
     display: block;
     background-color: #afe8af;
     border: 1px solid green;
+    transition: background-color .5s;
+}
+
+.form__checked .btn:hover{
+    background-color: #8dff8d;
 }
 
 .main__content {
